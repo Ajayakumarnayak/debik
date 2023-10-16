@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>order details</title>
+    <link rel="stylesheet" href="debik.css"/>
+    <script src="debik.js"></script>
+    </script>
+        <div class="logo">
+        <img class="logoimg" src="logo.jpg"/>
+        <div class="wrapper nine">
+            
+            <div>
+                <h3 class="rotate">
+                    <span>D</span>
+                    <span>E</span>
+                    <span>B</span>
+                    <span>I</span>
+                    <span>K</span>
+                </h3>  
+                
+            </div>
+        </div>
+        <p class="tagline">a good choose for your baby...</p>
+        </div>
+        </div>
+</head>
+<body>
+    <div class="delivery">
+        <h1 id="type">FILL YOUR DETAILS</h1>
+        <img class="anim" src="https://cdn-icons-png.flaticon.com/128/6815/6815043.png"/>
+        <form class="dv">
+            <lable>FIRSTNAME</lable>
+            <input type="text" placeholder="Enter your fistname">
+            <br>
+            <lable>LASTNAME</lable>
+            <input type="text" placeholder="Enter your lastname">
+            <br>
+            <lable>ADDRESS1</lable>
+            <input type="text" placeholder="Enter your adress1">
+            <br>
+            <lable>ADRESS2</lable>
+            <input type="text" placeholder="Enter your adress1">
+            <br>
+            <lable>LANDMARK</lable>
+            <input type="text" placeholder="Enter landmark name">
+            <br>
+            <lable>CITY</lable>
+            <input type="text" placeholder="Enter your city name">
+            <br>
+            <lable>PINCODE</lable>
+            <input type="text" placeholder="Enter your pincode">
+            <br>
+            <lable>MOBILE NUMBER</lable>
+            <input type="text" placeholder="Enter your mobilenumber">
+            <br>
+            <label>UPI Payment</label>
+            <br>
+            <div class="payment">
+                <input type="radio" onclick="showup('credit-card')" name="payment-method" value="credit-card">
+                <label for="credit-card" onclick="showup('credit-card')">CreditCard/DebitCard</label>
+                <input type="radio" name="payment-method" value="net-banking" onclick="showup('net-banking')">
+                <label for="net-banking" onclick="showup('net-banking')">NetBanking</label>
+                 <input type="radio" name="payment-method" value="cash-on-delivery" onclick="showup('cash-on-delivery')" >
+                 <label for="cash-on-delivery" onclick="showup('cash-on-delivery')"> CashonDelivery</label>
+    
+            </div>
+            <div id="credit-card" class="gateway">
+             <input type="text" placeholder="Card Number">
+             <label for="month">Month:</label>
+<select id="month" name="month">
+    <option value="01">January</option>
+    <option value="02">February</option>
+    <option value="03">March</option>
+    <option value="04">April</option>
+    <option value="05">May</option>
+    <option value="06">June</option>
+    <option value="07">July</option>
+    <option value="08">August</option>
+    <option value="09">September</option>
+    <option value="10">October</option>
+    <option value="11">November</option>
+    <option value="12">December</option>
+</select>
+<br>
+
+<label for="year">Year:</label>
+<select id="year" name="year">
+    <option value="2023">2023</option>
+    <option value="2024">2024</option>
+    <option value="2025">2025</option>
+    <option value="2023">2026</option>
+    <option value="2024">2027</option>
+    <option value="2025">2028</option>
+    <option value="2023">2029</option>
+    <option value="2024">2030</option>
+    <option value="2025">2031</option>
+    <!-- Add more years as needed -->
+</select>
+cvv
+<input text="text" placeholder="cvv">
+
+                
+            </div>
+            <div id="net-banking" class="gateway">
+                 <img src="https://cdn-icons-png.flaticon.com/128/6124/6124998.png"/>
+                 <img src="https://www.logo.wine/a/logo/PhonePe/PhonePe-Logo.wine.svg"/>
+                 <img src="https://www.logo.wine/a/logo/Paytm/Paytm-Logo.wine.svg"/>
+                 <img src="https://user-images.githubusercontent.com/54114888/125209830-52264900-e2b9-11eb-8f7b-3a1c7a1fca3a.png"/>
+                
+             </div>
+            <div id="cash-on-delivery" class="gateway">
+                <P>Thank you for choosing "COD" for you Free delivery cost offer</P>
+
+               </div>
+  
+ <br>
+            <a class="delivery" href="#popup">ORDERNOW</a>
+            <div id="popup" class="overlay">
+                <div class="popup">
+                    <a class="close" href="#">&times;</a>
+                    <div class="content">
+                        CONGRATULATION YOUR ORDER HAS BEEN PLACED
+                        <br>
+                      <img class="s" src="https://cdn-icons-png.flaticon.com/128/3927/3927270.png"/>
+                      <h2>Thankyou for shopping in DEBIK</h2>
+                    </div>
+
+                </div>
+            </div>
+            
+
+
+            </div>
+
+
+        </form>
+
+    </div>
+    
+    
+</body>
+</html>
